@@ -2,7 +2,9 @@
   "name": "@geckoai/rx-react",
   "version": "1.0.0",
   "description": "",
-  "main": "src",
+  "main": "dist/cjs",
+  "types": "dist/types",
+  "module": "dist/esm",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:clean": "rimraf dist && rimraf docs",
@@ -36,6 +38,5 @@
   "peerDependencies": {
     "react": ">= 16",
     "typescript": "^3.2.1 || ^4"
-  },
-  "private": true
+  }
 }
